@@ -60,9 +60,3 @@ Instead of showing raw SQL results, the chatbot asks the LLM to generate a **cle
 
 #### 💬 **Conversational Mode**  
 If the input isn’t SQL-related, the chatbot switches to a **free-flow conversation mode**.
-
----
-
-🔥 **Ask, Explore, and Dominate the Game with Data!** 🎮  
-
----
