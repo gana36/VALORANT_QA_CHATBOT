@@ -1,0 +1,7 @@
+{
+  "id": "108490384940728464",
+  "status": "published",
+  "league_id": "106375817979489820",
+  "time_zone": "Etc/UTC",
+  "name": "game_changers_br_s1"
+}

@@ -1,0 +1,8 @@
+{
+  "league_id": "109029777807406730",
+  "region": "KR",
+  "dark_logo_url": "http://static.lolesports.com/leagues/1663662378689_VCT_Game_Changers_Bug_Yellow_Dark.png",
+  "light_logo_url": "http://static.lolesports.com/leagues/1663662378687_VCT_Game_Changers_Bug_Yellow_Dark.png",
+  "name": "game_changers_kr",
+  "slug": "game_changers_kr"
+}

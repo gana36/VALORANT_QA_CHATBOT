@@ -1,0 +1,9 @@
+{
+  "id": "111006706101559987",
+  "acronym": "CVA",
+  "home_league_id": "109029777807406730",
+  "dark_logo_url": "http://static.lolesports.com/teams/1698136752512_CVA_O700x700.png",
+  "light_logo_url": "http://static.lolesports.com/teams/1698136752511_CVA_O700x700.png",
+  "slug": "crazy-violent-adult",
+  "name": "CVA"
+}
