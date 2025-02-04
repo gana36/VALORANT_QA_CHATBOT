@@ -11,22 +11,23 @@ This project is a **Streamlit-powered web application** that enables users to as
 ### 🖥️ 1. User Interface & Session Management  
 
 #### 🎭 **Streamlit Chat Interface**  
+Streamlit is a framework, in our project, we used it as a tool for the end user(non-technical) to interact with database stored in AWS S3. 
 
 #### 🔄 **Session Management**  
-
+For enhancing usability, chatbot stores chat history in the session state. Also a button to clear the whole chat is provided to reset the conversation instantly.
 
 ---
 
 ### ☁️ 2. AWS & Database Configuration  
 
 #### 🔑 **AWS Integration**  
-✅ **Amazon Athena** – for querying structured Valorant data.  
-✅ **AWS Bedrock** – for generating responses using an **LLM (Large Language Model)**.  
+✅ **Amazon Athena** – for querying structured Valorant data in S3.  
+✅ **AWS Bedrock** – for generating responses [SQL query and plain text from tabular format] using an **LLM (Large Language Model)**.  
 
 #### 📊 **Athena SQL Connection**  
 A **SQLAlchemy-powered connection** is established to Athena, using:  
 - An **S3 staging directory** for query execution.  
-- Workgroup and schema configurations to optimize performance.  
+ 
 Allows the chatbot to **fetch player statistics, match details, and other Valorant-related data**.  
 
 ---
@@ -34,13 +35,13 @@ Allows the chatbot to **fetch player statistics, match details, and other Valora
 ### 🤖 3. Language Model & Query Generation  
 
 #### 🧠 **LLM Setup with BedrockChat**  
-The chatbot utilizes **Amazon Bedrock’s LLM** via **LangChain**.
+The chatbot utilizes **Anthropic Claude** via **LangChain**.
 
 #### 📝 **SQL Query Construction**  
 The chatbot dynamically builds **SQL queries** using a structured template that includes:  
 📌 **Predefined table schema** (e.g., `player_details`, `leagues`, `tour_details`, etc.).  
 📌 **Defined rules for table joins**, ensuring accurate results.  
-📌 **User’s query injected** into the SQL template for precise execution.  
+  
 
 ---
 
