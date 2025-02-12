@@ -11,7 +11,7 @@ This project is a **Streamlit-powered web application** that enables users to as
 ### 🖥️ 1. User Interface & Session Management  
 
 #### 🎭 **Streamlit Chat Interface**  
-Streamlit is a framework, in our project, we used it as a tool for the end user(non-technical) to interact with database stored in AWS S3. 
+Streamlit is a framework, we used it as a tool for the end user(non-technical) to interact with database stored in AWS S3. 
 
 #### 🔄 **Session Management**  
 For enhancing usability, chatbot stores chat history in the session state. Also a button to clear the whole chat is provided to reset the conversation instantly.
