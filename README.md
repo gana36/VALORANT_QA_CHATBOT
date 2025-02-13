@@ -1,4 +1,4 @@
-# 🔥 Valorant Player Insights Chatbot   [View Demo](https://github.com/gana36/VALORANT_QA_CHATBOT/blob/main/demo_QA.gif)
+# 🔥 Valorant Player Insights Chatbot   [View Demo](https://github.com/gana36/VALORANT_QA_CHATBOT/blob/main/demoQA.gif)
 ![valorant_architecture](https://github.com/user-attachments/assets/000a7187-3e2a-4637-98fa-5b1006b08b6c)
 
 
