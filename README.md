@@ -1,7 +1,7 @@
-# 🔥 Valorant Player Insights Chatbot  
+# 🔥 Valorant Player Insights Chatbot   [View Demo](https://github.com/gana36/VALORANT_QA_CHATBOT/blob/main/demo_QA.gif)
 ![valorant_architecture](https://github.com/user-attachments/assets/000a7187-3e2a-4637-98fa-5b1006b08b6c)
 
-[View Demo](https://github.com/gana36/VALORANT_QA_CHATBOT/blob/main/demo_QA.gif)
+
 
 This project is a **Streamlit-powered web application** that enables users to ask questions about **Valorant players**, with responses generated using **AWS Athena, BedrockChat, and LangChain**. The chatbot dynamically constructs and executes SQL queries against a **Valorant database**, returning both raw results and **human-friendly explanations**.  
 
